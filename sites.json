@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "url": "https://github.com/Crane-xu",
+      "img": "github.png",
+      "name": "代码仓库"
+    },
+    {
+      "url": "https://crane-xu.github.io/exercises/",
+      "img": "css.png",
+      "name": "前端效果"
+    }
+  ]
+}
