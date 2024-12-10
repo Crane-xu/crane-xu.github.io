@@ -10,7 +10,7 @@ body {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   background-position: center;
   background-size: cover;
   background-image: url('../img/bg.jpg');
@@ -85,16 +85,6 @@ a {
   transition: all 0.5s ease;
 }
 
-.background {
-  position: absolute;
-  height: 90vh;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: auto;
-}
-
 @media (min-width: 800px) {
   .nav-tab {
     font-size: 3vw;
@@ -105,19 +95,4 @@ a {
   .nav-tab {
     font-size: 1.2vw;
   }
-}
-
-.background {
-  position: absolute;
-  height: 100vh;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-}
-
-.loader span {
-  color: #faebd7;
-  text-shadow: 0 0 0 #faebd7;
 }
