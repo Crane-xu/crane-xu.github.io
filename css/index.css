@@ -1,3 +1,7 @@
+:root{
+  font-size: calc(0.5em + 1vw);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,19 +30,9 @@ body {
   padding: 0 2em;
 }
 
-.nav h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 5vw;
-  margin: 0;
-  letter-spacing: 0.5rem;
-  color: #eee;
-  transition: all 0.3s ease;
-  z-index: 3;
-}
-
 h3.span {
-  font-size: 2vw;
-  letter-spacing: 0.7em;
+  font-size: 2rem;
+  letter-spacing: 0.5em;
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
   color: #faebd7;
@@ -53,18 +47,18 @@ a {
 .nav-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 10vh;
-  padding: 20px;
+  margin-top: 5em;
+  padding: 1em;
   bottom: 0;
   width: 100%;
-  border-radius: 5px;
+  border-radius: .5em;
   background: rgba(255, 255, 255, 0.2);
   z-index: 10;
 }
 
 .nav-container img {
   width: 40%;
-  margin-bottom: 5px;
+  margin-bottom: .5em;
 }
 
 .nav-tab {
@@ -75,8 +69,7 @@ a {
   color: #eee;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
-  font-size: 2vw;
-  padding: 10px 0 10px 0;
+  padding: .5em 0 .5em 0;
 }
 
 .nav-tab:hover {
@@ -87,12 +80,12 @@ a {
 
 @media (min-width: 800px) {
   .nav-tab {
-    font-size: 3vw;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 360px) {
   .nav-tab {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
   }
 }
